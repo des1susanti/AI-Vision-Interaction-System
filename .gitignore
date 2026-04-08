@@ -1,0 +1,40 @@
+# --- Python Virtual Environment ---
+# Menggunakan asterisk (*) di depan untuk menangkap berbagai variasi nama
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+
+# --- Python Cache & Compiled ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Machine Learning / AI Models (Heavy Files) ---
+# Mencegah upload file bobot model yang bisa membuat push gagal
+*.pt
+*.pth
+*.onnx
+*.weights
+*.tflite
+*.h5
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Windows System Files ---
+Thumbs.db
+desktop.ini
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Large Folders / Logs ---
+runs/
+output/
