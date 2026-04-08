@@ -32,4 +32,4 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 Clone this project to your local machine using the command below:
 ```bash
-git clone [https://github.com/des1susanti/AI-Vision-Interaction-System.git](https://github.com/des1susanti/AI-Vision-Interaction-System.git)
+git clone https://github.com/des1susanti/AI-Vision-Interaction-System.git
